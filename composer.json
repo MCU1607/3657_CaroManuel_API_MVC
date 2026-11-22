@@ -1,15 +1,16 @@
 {
     "name": "usuario/game-zone",
+    "description": "API para sistema de gestión de la tienda de videojuegos",
+    "type": "project",
     "autoload": {
         "psr-4": {
-            "Usuario\\GameZone\\": "src/"
+            "App\\": "app/",
+            "Config\\": "config/",
+            "Core\\": "core/"
         }
     },
-    "authors": [
-        {
-            "name": "MCU1607",
-            "email": "maarcau1607@gmail.com"
-        }
-    ],
-    "require": {}
+    "require": {
+        "php": ">=8.1"
+    }
 }
+

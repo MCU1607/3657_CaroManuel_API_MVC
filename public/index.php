@@ -55,7 +55,7 @@ $uri = parse_url(
 // ELIMINAR RUTA BASE
 // =====================================
 
-$basePath = '/3657_PAGINA_WEB/public';
+$basePath = '/GameZone/public';
 
 if (str_starts_with($uri, $basePath)) {
 
