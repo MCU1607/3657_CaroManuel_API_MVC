@@ -1,0 +1,15 @@
+{
+    "name": "usuario/game-zone",
+    "autoload": {
+        "psr-4": {
+            "Usuario\\GameZone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MCU1607",
+            "email": "maarcau1607@gmail.com"
+        }
+    ],
+    "require": {}
+}
